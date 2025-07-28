@@ -1,0 +1,16 @@
+.favoritesPage {
+  width: 100%;
+  background-color: #392849;
+  height: 100vh;
+  color: #9f0013;
+  margin: 0, auto;
+}
+.cardsGrid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.favorite {
+  display: flex;
+  justify-content: center;
+}

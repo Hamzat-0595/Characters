@@ -1,5 +1,27 @@
+.card {
+  background-color: #000; // чёрный фон
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+  // Эффект всплытия при наведении
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(255, 0, 0, 0.4); // красная светящаяся тень
+  }
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+// Оформление имени и статуса
 .name {
   text-align: center;
   color: azure;
   font-size: 17px;
+  padding: 10px 8px;
 }

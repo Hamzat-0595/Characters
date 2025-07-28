@@ -20,8 +20,8 @@ const CharactersPage = () => {
 
   return (
     <div className={classes.CharacterPage}>
-      <header className={classes.CharacterPage__header}>Characters</header>
       <div className={classes.CharacterPage__wrapper}>
+        {/* <header className={classes.CharacterPage__header}>Characters</header> */}
         <input
           className={classes.CharacterPage__input}
           value={inputValue}

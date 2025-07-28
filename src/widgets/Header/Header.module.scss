@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.headerLogo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.headerHighlight {
+  color: #9f0013;
+  margin-right: 5px;
+}
+
+.headerNav {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 16px;
+}
+
+.headerLink {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.headerLinkActive {
+  color: #9f0013;
+  outline-offset: 2px;
+  padding: 2px 4px;
+}
