@@ -1,3 +1,4 @@
+import { CharacterDetailsPage } from "@/pages/CharacterDetailsPage";
 import { CharactersPage } from "@/pages/CharactersPage";
 import { FavoritesPage } from "@/pages/FavoritesPage";
 import { Header } from "@/widgets/Header/Header";
@@ -9,7 +10,7 @@ export const AppRouter = () => {
       <Header />
       <Routes>
         <Route path="/" element={<CharactersPage />} />
-        {/* <Route path="/characters/:id" element={<CharacterDetailsPage />} /> */}
+        <Route path="/characters/:id" element={<CharacterDetailsPage />} />
         <Route path="/favorites" element={<FavoritesPage />} />
       </Routes>
     </BrowserRouter>
