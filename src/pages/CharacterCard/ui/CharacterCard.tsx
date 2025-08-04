@@ -7,6 +7,8 @@ interface CharacterCardProps {
   character: ICharacter;
 }
 
+// Стоит вынести в entities слой по FSD.
+
 export const CharacterCard = ({ character }: CharacterCardProps) => {
   return (
     <div className={classes.card}>

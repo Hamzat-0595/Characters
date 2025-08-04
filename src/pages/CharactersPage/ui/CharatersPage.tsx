@@ -40,13 +40,14 @@ const CharactersPage = () => {
         <p>Ничего не найдено по вашему запросу.</p>
       )}
 
-      {characters && characters.length > 0 && (
-        <div className={classes.CharacterPage__card}>
-          {characters.map((char) => (
-            <CharacterCard key={char.id} character={char} />
-          ))}
-        </div>
-      )}
+      {characters &&
+        characters.length > 0 && ( // Можно сделать проверку с приведением к boolean типу вместо > 0.
+          <div className={classes.CharacterPage__card}>
+            {characters.map((char) => (
+              <CharacterCard key={char.id} character={char} />
+            ))}
+          </div>
+        )}
     </div>
   );
 };
